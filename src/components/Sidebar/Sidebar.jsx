@@ -36,7 +36,7 @@ const Sidebar = () => {
 	return (
 		<Card classes={styles.card}>
 			<div className={styles.container}>
-				<Button text={'Показать результат'} onClick={setFilterReq} />
+				<Button text={'Показать результат'} onClick={setFilterReq} disabled={!state.length} />
 				<Button text={'Очистить фильтр'} onClick={resetFilterReq} secondary />
 				<div className={styles.title}>Материал</div>
 				<div className={styles.items}>

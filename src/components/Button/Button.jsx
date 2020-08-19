@@ -22,6 +22,7 @@ const Button = ({
 			[styles.medium]: medium,
 		})}
 		onClick={onClick}
+		disabled={disabled}
 	>
 		{icon}
 		{text}

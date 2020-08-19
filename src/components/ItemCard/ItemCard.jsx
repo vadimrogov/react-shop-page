@@ -44,7 +44,7 @@ const ItemCard = ({product: { id, link, code, imgUrl, availability, title, param
 			))}
 		</div>
 		<div className={styles.buttonContainer}>
-			<Button icon={<CartIcon />} text={'Купить'} medium />
+			<Button icon={<CartIcon />} text={'Купить'} disabled={!availability} medium />
 			<div>
 				<Button icon={<HeartIcon isChecked={inFav} />} onClick={addToFavoritesReq} small transpanent />
 				<Button icon={<ScalesIcon isChecked={inComparsion} />} small transpanent />
