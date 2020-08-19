@@ -1,0 +1,37 @@
+@import '../variables';
+
+.button {
+  height: 32px;
+  width: 211px;
+  background-color: $blue;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: $gray-lighter;
+}
+
+.secondary {
+  color: $gray-darkest;
+  background-color: $gray-light;
+}
+
+.iconButton {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  justify-items: center;
+}
+
+.medium {
+  width: 95px;
+}
+
+.small {
+  width: 32px;
+}
+
+.transpanent {
+  background-color: #ffffff00;
+}

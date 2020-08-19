@@ -1,0 +1,66 @@
+@import '../variables';
+
+.cardItem {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 243px;
+  grid-template-rows: 56px 308px 246px 64px;
+}
+
+.code {
+  align-self: center;
+  width: 100%;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: $gray-light;
+}
+
+.status {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.statusAvailable {
+  margin-left: 6px;
+  color: $blue;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 20px;
+  color: $gray-darkest;
+  margin-top: 4px;
+  margin-bottom: 18px;
+}
+
+.image {
+  width: 243px;
+  height: 308px;
+}
+
+.description {
+  padding-top: 14px;
+}
+
+.descriptionItem {
+  padding-bottom: 4px;
+}
+
+.descriptionItemName {
+  color: $gray-dark;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.descriptionItemValue {
+  color: $gray-dark;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 13px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}

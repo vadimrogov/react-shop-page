@@ -1,0 +1,12 @@
+.root {
+	display: grid;
+	grid-template-columns: 980px 300px;
+	justify-items: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 289px 289px 289px;
+	grid-auto-rows: 674px;
+	grid-column-gap: 24px;
+}

@@ -1,0 +1,23 @@
+@import url('https://rsms.me/inter/inter.css');
+@import "./components/variables";
+
+* {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $gray-darkest;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  background-color: #E5E5E5;
+  width: '100vw';
+  height: '100vh';
+}
