@@ -18,10 +18,10 @@
 }
 
 .iconButton {
-  display: grid;
-  grid-template-columns: 30% 70%;
+  display: flex;
   align-items: center;
   justify-items: center;
+  justify-content: space-around;
 }
 
 .medium {
